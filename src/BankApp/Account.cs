@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BankApp
 {
@@ -33,7 +31,6 @@ namespace BankApp
 
         public double CalculateIntrest()
         {
-
             var calculatedIntrest = Balance * (Interest / 100d);
 
             Balance += calculatedIntrest;
